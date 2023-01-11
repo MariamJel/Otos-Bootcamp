@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT preview</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Roboto:ital,wght@0,400;0,500;0,700;1,700&display=swap" rel="stylesheet">
+    <style>
+        .box{
+            width: 350px;
+            height: 596px;
+            margin: 152px 545px 152px 545px ;
+            background-color: #15263F;
+        }
+        .main{
+            width: 302px;
+            height: 302px;
+            padding: 24px;
+            margin: 0;
+        }
+        h1{
+        
+            padding: 0px 24px 16px 24px;
+            margin: 0;
+            font-family: outfit;
+            font-weight: 600;
+            font-style: normal;
+            font-size: 22px;
+            line-height: 27.72px;
+            color: white;
+        }
+        p{
+            padding-left: 24px;
+            padding-right: 24px;
+            padding-bottom: 24px;
+            padding-top: 0px;
+            margin: 0;
+            font-family: 'Outfit';
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 26px;
+            color: #8BACD9;
+            
+            margin: 0px;
+        }
+        .ethereum-box,
+        .creator{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        
+            font-family: 'Outfit';
+            font-style: normal;
+            font-size: 16px;
+            line-height: 20.16px;
+
+        }
+        .ethereum-box{
+            padding: 0;
+            margin: 0;
+            
+        }
+       
+        .ethereum{
+            width: 11px;
+            height: 20px ;
+            padding-right: 6.68px;
+            padding-left: 24px;
+        }
+        .ethereum-amount{
+            font-weight: 600;
+            color: #00FFF8;
+           
+        }
+        .clock{
+            width: 13.33px;
+            height: 13.33px ;
+            padding: 0;
+            padding-left: 112.15px;
+        }
+        .time{
+            padding-right: 26px;
+            padding-left: 7.7px;
+            font-weight: 400;
+            color:  #8BACD9;
+
+        }
+        
+        .creator {
+            margin-top: 16px;
+
+        }
+        
+        hr{
+            margin: 24px 24px 0 24px;
+            padding: 0px;
+            height: 1px;
+            border-color:hsl(215, 32%, 27%);
+            background-color: hsl(215, 32%, 27%);
+            border-style: hidden;
+
+        }
+        .avatar{
+            height: 33px;
+            width: 33px;
+           
+            border: 1px solid white;
+            margin: 0;
+            padding: 0;
+            margin-left: 24px;
+            margin-right: 16px;
+            border-radius: 16.5px;
+           
+
+        }
+        .description{
+            font-weight: 400;
+            color: #8BACD9;
+            height: 20px;
+            padding: 0;
+            padding-right: 5px;
+            white-space: nowrap;
+
+        }
+        .name{
+            font-weight: 400;
+            color: white;
+            height: 20px;
+            margin-right: 98px;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <img class="main" src="nft-preview-card-component/images/image-equilibrium.jpg" alt="">
+        <h1>Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+        <div class="ethereum-box">
+            <img class="ethereum" src="nft-preview-card-component/images/icon-ethereum.svg" alt="">
+            <div class="ethereum-amount">0.041 ETH</div>
+            <img class="clock" src="nft-preview-card-component/images/icon-clock.svg" alt="">
+            <div class="time">3 days left</div>
+            
+        </div>
+        <hr>
+        <div class="creator">
+            <img class="avatar" src="nft-preview-card-component/images/image-avatar.png" alt="">
+            <div class="description">Creation of</div>
+            <div class="name">Jules Wyvern</div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
